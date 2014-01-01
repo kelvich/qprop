@@ -1,0 +1,21 @@
+Ubuntu:
+
+  apt-get install make
+  apt-get install build-essential
+  apt-get install libblas-dev
+  apt-get install liblapack-dev
+  apt-get install libf2c2-dev
+
+  propably mkdir ~/qprop/lib/i386/
+
+
+Mac OS:
+  поправить ROOT
+  g++ --> g++-4.9
+  поставить f2c руками из репы на netlib
+  
+
+
+
+
+

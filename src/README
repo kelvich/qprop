@@ -1,0 +1,8 @@
+This is the core of the Qprop package. 
+
+Command "make" in current directory creates the library qprop.
+Library file libqprop.a appears in subdirectory ../lib/i386/
+
+Examples for using the library qprop are in the other subdirectories
+../hydrogen/, ../ionization/,  ../neon/, ../winop/, and ../circ/.
+
