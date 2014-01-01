@@ -1,11 +1,13 @@
+All rigths to Prof. Dieter Bauer
+http://www.physik.uni-rostock.de/physik-forschung/arbeitsgruppen/qtmps/qprop/
+
+
+
+Installing:
+
 Ubuntu:
 
-  apt-get install make
-  apt-get install build-essential
-  apt-get install libblas-dev
-  apt-get install liblapack-dev
-  apt-get install libf2c2-dev
-
+  apt-get install make build-essential libblas-dev liblapack-dev libf2c2-dev
   propably mkdir ~/qprop/lib/i386/
 
 
@@ -13,6 +15,7 @@ Mac OS:
   поправить ROOT
   g++ --> g++-4.9
   поставить f2c руками из репы на netlib
+  создать lib и obj папки
   
 
 
