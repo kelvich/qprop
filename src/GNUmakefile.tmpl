@@ -11,7 +11,7 @@
 #/********************************************************************************************************************************/
 
 HOSTTYPE        = i386
-ROOT		= /Users/stas/code/qprop_ok
+ROOT		        = /Users/stas/code/qprop_ok
 OBJS          	= $(ROOT)/obj
 DEPS          	= $(ROOT)/dep
 LIBS          	= $(ROOT)/lib
@@ -19,9 +19,9 @@ BINS          	= $(ROOT)/bin
 VERS          	= $(ROOT)/versions
 SRCDIR          = $(ROOT)/src
 BINDIR          = $(ROOT)/bin/$(HOSTTYPE)
-OBJDIR          = $(ROOT)/obj/$(HOSTTYPE)
+OBJDIR          = $(ROOT)/build/obj
 DEPDIR          = $(ROOT)/dep/$(HOSTTYPE)
-LIBDIR          = $(ROOT)/lib/$(HOSTTYPE)
+LIBDIR          = $(ROOT)/build/lib
 
 vpath %.o $(OBJDIR)/$(PROGNAME)
 
